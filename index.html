@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>彬彬大人攻略计划</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="game">
+    <section id="start-screen" class="screen active">
+      <div class="start-card">
+        <p class="eyebrow">Birthday Otome Game</p>
+        <h1>小彬攻略计划</h1>
+        <p class="subtitle">一个关于酒吧、拙劣搭讪、双向暗恋和生日快乐的故事。</p>
+        <button id="start-btn">开始攻略</button>
+        <p class="hint">建议横屏 / 电脑打开。点击文字框继续剧情。</p>
+      </div>
+    </section>
+
+    <section id="game-screen" class="screen">
+      <img id="bg" class="background" src="assets/backgrounds/bar_evening.svg" alt="bar background" />
+
+      <div id="vignette"></div>
+
+      <div id="character-layer">
+        <img id="char-left" class="character left hidden" alt="left character" />
+        <img id="char-center" class="character center hidden" alt="center character" />
+        <img id="char-right" class="character right hidden" alt="right character" />
+      </div>
+
+      <div id="top-bar">
+        <button id="save-btn" title="保存当前进度">保存</button>
+        <button id="load-btn" title="读取进度">读取</button>
+        <button id="reset-btn" title="清除进度并重开">重开</button>
+      </div>
+
+      <div id="dialogue-box">
+        <div id="nameplate">旁白</div>
+        <p id="dialogue-text"></p>
+        <div id="choice-box" class="hidden"></div>
+        <div id="continue-tip">点击继续 ▼</div>
+      </div>
+    </section>
+
+    <section id="ending-screen" class="screen">
+      <div class="ending-bg">
+        <div class="ending-card">
+          <p class="eyebrow">Happy Ending</p>
+          <h2>真结局</h2>
+          <img class="final-cg" src="assets/characters/he.jpg" alt="final cg placeholder" />
+          <p>
+            你们在酒吧昏黄的灯光里对视三秒。<br/>
+            达成真结局！生日快乐！
+            （我的天啊我不会画画，我本地部署的模型调起来太困难了太丑了，导致立绘很粗糙。）
+            （我还学习了怎么抠图）
+            （请原谅我）
+          </p>
+          <button id="again-btn">再玩一次</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#28113a"/>
+      <stop offset=".55" stop-color="#5a1e45"/>
+      <stop offset="1" stop-color="#110712"/>
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="15%" r="65%">
+      <stop offset="0" stop-color="#ffd693" stop-opacity=".72"/>
+      <stop offset=".5" stop-color="#ff8fb3" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="580" fill="url(#bg)"/>
+  <rect width="900" height="580" fill="url(#light)"/>
+  <g opacity=".55">
+    <circle cx="130" cy="95" r="3" fill="#fff"/>
+    <circle cx="735" cy="82" r="2" fill="#fff"/>
+    <circle cx="805" cy="158" r="3" fill="#fff"/>
+    <circle cx="248" cy="118" r="2" fill="#fff"/>
+  </g>
+  <rect x="95" y="370" width="710" height="68" rx="28" fill="#2b1029"/>
+  <rect x="150" y="310" width="600" height="32" rx="16" fill="#f4b66c" opacity=".7"/>
+  <g>
+    <circle cx="365" cy="240" r="64" fill="#ffe3c8"/>
+    <path d="M304 232 C315 158 357 130 400 150 C435 166 446 198 430 244 C397 210 356 205 304 232Z" fill="#3b1835"/>
+    <path d="M315 500 C326 385 323 316 353 282 C368 266 394 266 409 282 C439 316 436 385 447 500Z" fill="#ff8fb3"/>
+    <text x="376" y="542" text-anchor="middle" fill="#fff" font-size="30" font-family="Arial" font-weight="700">我</text>
+  </g>
+  <g>
+    <circle cx="535" cy="240" r="64" fill="#ffe3c8"/>
+    <path d="M475 230 C485 160 536 126 583 154 C622 178 615 226 592 250 C560 208 521 206 475 230Z" fill="#2d183f"/>
+    <path d="M485 500 C496 385 493 316 523 282 C538 266 564 266 579 282 C609 316 606 385 617 500Z" fill="#7cc7ff"/>
+    <text x="550" y="542" text-anchor="middle" fill="#fff" font-size="30" font-family="Arial" font-weight="700">寿星</text>
+  </g>
+  <text x="450" y="82" text-anchor="middle" fill="#fff4df" font-size="42" font-family="Arial, sans-serif" font-weight="800">最终合照占位图</text>
+  <text x="450" y="130" text-anchor="middle" fill="#fff4df" opacity=".78" font-size="24" font-family="Arial, sans-serif">把这里替换成你们的合照 / CG</text>
+</svg>
